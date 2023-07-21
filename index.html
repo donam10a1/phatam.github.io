@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Sound Effect Buttons</title>
+<link href="styles.css" rel="stylesheet">
+</head>
+<body>
+<h1>Sound Effect Buttons</h1>
+<button onclick="playSound('1.mp3')">Ừ</button>
+<button onclick="playSound('2.mp3')">Không</button>
+<script>
+function playSound(soundFile) {
+var audio = new Audio(soundFile);
+audio.play();
+}
+</script>
+</body>
+</html>
